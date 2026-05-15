@@ -12,6 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/baseball" element={<BaseBall />}></Route>
+        <Route path="/football" element={<Football />}></Route>
+        <Route path="/soccer" element={<Soccer />}></Route>
       </Routes>
     </>
   );
