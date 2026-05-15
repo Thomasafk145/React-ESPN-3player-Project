@@ -9,6 +9,7 @@ function App() {
         <Nav></Nav>
         <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/baseball"></Route>
         </Routes>
         </>
     )
