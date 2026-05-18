@@ -3,6 +3,7 @@ function Nav() {
   return (
     <>
       <nav>
+        <Link to="/">Home | </Link>
         <Link to="/baseball">Baseball | </Link>
         <Link to="/football">Football | </Link>
         <Link to="/soccer">Soccer | </Link>
