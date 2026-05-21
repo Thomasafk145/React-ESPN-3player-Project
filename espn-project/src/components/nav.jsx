@@ -9,26 +9,13 @@ export const SportList = [
 ];
 
 function Nav() {
-  const contextObj = useContext(SportContext);
   return (
     <>
       <nav>
         <Link to="/">Home | </Link>
-        <Link to="/baseball">Baseball | </Link>
-        <Link to="/football">Football | </Link>
-        <Link to="/soccer">Soccer | </Link>
         <Link to="/sport">Sport | </Link>
       </nav>
       <div>
-        {SportList.map((s, i) => (
-          <button
-            onClick={() => {
-              contextObj.setSport(s); //baseball/mlb
-            }}
-          >
-            {s.short}
-          </button>
-        ))}
         {/* <button
           onClick={() => {
             contextObj.setSport("MLB"); //baseball/mlb

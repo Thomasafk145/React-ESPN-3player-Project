@@ -19,9 +19,6 @@ function App() {
         <Nav></Nav>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/baseball" element={<BaseBall />}></Route>
-          <Route path="/football" element={<Football />}></Route>
-          <Route path="/soccer" element={<Soccer />}></Route>
           <Route path="/sport" element={<Sport />}></Route>
         </Routes>
       </SportContext.Provider>
