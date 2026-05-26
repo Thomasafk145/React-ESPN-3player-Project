@@ -13,8 +13,12 @@ function Nav() {
   return (
     <>
       <nav>
-        <Link to="/">Home | </Link>
-        <Link to="/sport">Sport | </Link>
+        <Link style={{ color: "white", fontSize: "25px" }} to="/">
+          Home |{" "}
+        </Link>
+        <Link style={{ color: "white", fontSize: "25px" }} to="/sport">
+          Sport{" "}
+        </Link>
       </nav>
       <Scoreboard></Scoreboard>
       <div>
