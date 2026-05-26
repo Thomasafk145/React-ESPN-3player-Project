@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SportContext from "../contexts/sportContext";
 import { useContext } from "react";
+import Scoreboard from "./scoreboard";
 
 export const SportList = [
   { short: "MLB", path: "baseball/mlb" },
@@ -15,6 +16,7 @@ function Nav() {
         <Link to="/">Home | </Link>
         <Link to="/sport">Sport | </Link>
       </nav>
+      <Scoreboard></Scoreboard>
       <div>
         {/* <button
           onClick={() => {

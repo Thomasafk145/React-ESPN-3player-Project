@@ -13,6 +13,7 @@ function App() {
     sport: sport,
     setSport: setSport,
   };
+
   return (
     <>
       <SportContext.Provider value={contextObject}>

@@ -10,6 +10,7 @@ export default function Sport() {
   useEffect(() => {
     console.log(`I'm now requesting news about ${sport.short}`);
   }, [sport]);
+
   return (
     <>
       {SportList.map((s, i) => (
